@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AllCasesSuite]">
+  <listeners>
+    <listener class-name="com.orangehrm.qa.util.TestUtil"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.orangehrm.qa.tests.HomePage_MyinfoDatadrivenTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="myinfodetailschecktest"/>
+        </methods>
+      </class> <!-- com.orangehrm.qa.tests.HomePage_MyinfoDatadrivenTest -->
+      <class name="com.orangehrm.qa.tests.MyInfo_PhotographTest">
+        <methods>
+          <include name="purposefullyfailingtoseescreenshot"/>
+          <include name="StartUp"/>
+          <include name="End"/>
+        </methods>
+      </class> <!-- com.orangehrm.qa.tests.MyInfo_PhotographTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AllCasesSuite] -->

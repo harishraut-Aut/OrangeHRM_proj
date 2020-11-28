@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 23, Failures: 3, Errors: 0, Skipped: 3, Time elapsed: 411.294 sec <<< FAILURE! - in TestSuite
+validatemyinfodetails(com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest)  Time elapsed: 14.022 sec  <<< FAILURE!
+java.lang.AssertionError: couldnt save details.. expected [true] but found [false]
+	at com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest.validatemyinfodetails(MyInfoPersonalDetailsDDtest.java:48)
+
+setUp(com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest)  Time elapsed: 22.308 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#txtUsername"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DELL', ip: '192.168.43.201', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2b874fd5a11002b9b9e998535f5e2f53
+*** Element info: {Using=id, value=txtUsername}
+	at com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest.setUp(MyInfoPersonalDetailsDDtest.java:25)
+
+end(com.orangehrm.qa.tests.EmergencyContactsDDtest)  Time elapsed: 4.267 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DELL', ip: '192.168.43.201', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+	at com.orangehrm.qa.tests.EmergencyContactsDDtest.end(EmergencyContactsDDtest.java:74)
+

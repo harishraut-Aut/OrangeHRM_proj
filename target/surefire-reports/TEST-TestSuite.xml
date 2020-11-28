@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="411.294" tests="23" errors="0" skipped="3" failures="3">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\MicrosoftAccount"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_171\jre"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="AWP_ROOT191" value="C:\Program Files\ANSYS Inc\ANSYS Student\v191"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="USERDOMAIN" value="DELL"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_171"/>
+    <property name="JOB_NAME" value="OrangeHrmNew"/>
+    <property name="COMPUTERNAME" value="DELL"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="admin"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="IntelliJ IDEA Community Edition" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.2\bin;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\admin\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/OrangeHrmNew/2/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-OrangeHrmNew-2"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven C:\Users\admin\.jenkins\war\WEB-INF\lib\remoting-4.5.jar C:\Users\admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Users\admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 49251"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="JENKINS_SERVER_COOKIE" value="05818482cd98548f"/>
+    <property name="=D:" value="D:\00Jenkins"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\scala\bin;E:\Python\Python37-32;C:\MinGW\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\nodejs;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\\Windows\System32;D:\03Gitdata\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\admin\anaconda3;C:\Users\admin\anaconda3\Library\mingw-w64\bin;C:\Users\admin\anaconda3\Library\usr\bin;C:\Users\admin\anaconda3\Library\bin;C:\Users\admin\anaconda3\Scripts;C:\Users\admin\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python38\;C:\Program Files\MongoDB\Server\4.0\bin;C:\Windows\System32\wbem;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\admin\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/OrangeHrmNew/2/"/>
+    <property name="M2_HOME" value="C:\Users\admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="05818482cd98548f"/>
+    <property name="WORKSPACE_TMP" value="C:\Users\admin\.jenkins\workspace\OrangeHrmNew@tmp"/>
+    <property name="MAVEN_HOME" value="C:\Users\admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="ANSYS_SYSDIR" value="winx64"/>
+    <property name="P_SCHEMA" value="C:\Program Files\ANSYS Inc\ANSYS Student\v191\AISOL\CADIntegration\Parasolid\PSchema"/>
+    <property name="ANS_OLD_ATTACH" value="1"/>
+    <property name="HOMEPATH" value="\Users\admin"/>
+    <property name="os.name" value="Windows 8"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="AWP_LOCALE191" value="en-us"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="2"/>
+    <property name="maven3.interceptor" value="C:\Users\admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_171\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Users\admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin;C:\Program Files\Java\jdk1.8.0_171\bin;C:\Program Files\Java\jdk1.8.0_171\jre\bin;C:\Program Files (x86)\scala\bin;C:\Program Files (x86)\scala\bin;E:\Python\Python37-32;C:\MinGW\bin;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files (x86)\nodejs;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\\Windows\System32;D:\03Gitdata\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\admin\anaconda3;C:\Users\admin\anaconda3\Library\mingw-w64\bin;C:\Users\admin\anaconda3\Library\usr\bin;C:\Users\admin\anaconda3\Library\bin;C:\Users\admin\anaconda3\Scripts;C:\Users\admin\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python38\;C:\Program Files\MongoDB\Server\4.0\bin;C:\Windows\System32\wbem;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="CADOE_LIBDIR191" value="C:\Program Files\ANSYS Inc\ANSYS Student\v191\CommonFiles\Language\en-us"/>
+    <property name="POM_GROUPID" value="OrangeHRMTestAutomation"/>
+    <property name="POM_ARTIFACTID" value="OrangeHRMTest"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/OrangeHrmNew/"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/OrangeHrmNew/2/display/redirect"/>
+    <property name="JENKINS_HOME" value="C:\Users\admin\.jenkins"/>
+    <property name="BUILD_ID" value="2"/>
+    <property name="TEMP" value="C:\Users\admin\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="AMDAPPSDKROOT" value="C:\Program Files (x86)\AMD APP\"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\admin\.jenkins"/>
+    <property name="ANSYS191_DIR" value="C:\Program Files\ANSYS Inc\ANSYS Student\v191\ANSYS"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Users\admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/bin"/>
+    <property name="USERDOMAIN_ROAMINGPROFILE" value="DELL"/>
+    <property name="ANSYS_SYSDIR32" value="win32"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/OrangeHrmNew/2/display/redirect?page=artifacts"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_171"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\admin"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/OrangeHrmNew/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.2"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="USERNAME" value="admin"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="D:\Classwork\OrangeHRMTest"/>
+    <property name="maven.conf" value="C:\Users\admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\admin\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SCALA_HOME" value="C:\Program Files (x86)\scala"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.171-b11"/>
+    <property name="java.class.path" value="C:\Users\admin\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven\boot\plexus-classworlds-2.6.0.jar;C:\Users\admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\admin\.jenkins\workspace\OrangeHrmNew"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/OrangeHrmNew/2/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="LSTC_LICENSE" value="ANSYS"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_171-b11"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_171\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_171\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_171\jre\classes"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="C:\Users\admin\.jenkins\tools\hudson.tasks.Maven_MavenInstallation\TestMaven"/>
+    <property name="JOB_BASE_NAME" value="OrangeHrmNew"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="POM_DISPLAYNAME" value="OrangeHRMTest"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase name="uploadphotoover1mb" classname="com.orangehrm.qa.tests.MyInfo_PhotographTest" time="22.55"/>
+  <testcase name="uploadphotounder1mb" classname="com.orangehrm.qa.tests.MyInfo_PhotographTest" time="4.931"/>
+  <testcase name="verifyLoginIdPasswords" classname="com.orangehrm.qa.tests.LoginPageDDtest" time="9.581"/>
+  <testcase name="verifyLoginIdPasswords" classname="com.orangehrm.qa.tests.LoginPageDDtest" time="2.511"/>
+  <testcase name="verifyLoginIdPasswords" classname="com.orangehrm.qa.tests.LoginPageDDtest" time="3.542"/>
+  <testcase name="verifyLoginIdPasswords" classname="com.orangehrm.qa.tests.LoginPageDDtest" time="8.568"/>
+  <testcase name="addEmergencycontacts" classname="com.orangehrm.qa.tests.EmergencyContactsDDtest" time="4.202"/>
+  <testcase name="addEmergencycontacts" classname="com.orangehrm.qa.tests.EmergencyContactsDDtest" time="3.429"/>
+  <testcase name="validatemyinfodetails" classname="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest" time="6.389"/>
+  <testcase name="validatemyinfodetails" classname="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest" time="14.022">
+    <failure message="couldnt save details.. expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: couldnt save details.. expected [true] but found [false]
+	at com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest.validatemyinfodetails(MyInfoPersonalDetailsDDtest.java:48)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 13681
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 28, 2020 11:28:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validatemyinfodetails" classname="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest" time="5.978"/>
+  <testcase name="validatemyinfodetails" classname="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest" time="5.86"/>
+  <testcase name="validatemyinfodetails" classname="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest" time="6.031"/>
+  <testcase name="validatemyinfodetails" classname="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#txtUsername&quot;}&#10;  (Session info: chrome=86.0.4240.198)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DELL&apos;, ip: &apos;192.168.43.201&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2b874fd5a11002b9b9e998535f5e2f53&#10;*** Element info: {Using=id, value=txtUsername}"/>
+  </testcase>
+  <testcase name="validatemyinfodetails" classname="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest" time="0">
+    <skipped message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#txtUsername&quot;}&#10;  (Session info: chrome=86.0.4240.198)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DELL&apos;, ip: &apos;192.168.43.201&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2b874fd5a11002b9b9e998535f5e2f53&#10;*** Element info: {Using=id, value=txtUsername}"/>
+  </testcase>
+  <testcase name="setUp" classname="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest" time="22.308">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#txtUsername&quot;}&#10;  (Session info: chrome=86.0.4240.198)&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DELL&apos;, ip: &apos;192.168.43.201&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}&#10;Session ID: 2b874fd5a11002b9b9e998535f5e2f53&#10;*** Element info: {Using=id, value=txtUsername}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#txtUsername"}
+  (Session info: chrome=86.0.4240.198)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DELL', ip: '192.168.43.201', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.198, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49502}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2b874fd5a11002b9b9e998535f5e2f53
+*** Element info: {Using=id, value=txtUsername}
+	at com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest.setUp(MyInfoPersonalDetailsDDtest.java:25)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}) on port 20501
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 28, 2020 11:30:02 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setUp" classname="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.orangehrm.qa.tests.LoginPageTests" time="0.019"/>
+  <testcase name="OHRMlogoImageTest" classname="com.orangehrm.qa.tests.LoginPageTests" time="0.134"/>
+  <testcase name="loginTest" classname="com.orangehrm.qa.tests.LoginPageTests" time="5.905"/>
+  <testcase name="validate_Forgotpasswordlink" classname="com.orangehrm.qa.tests.LoginPageTests" time="1.22"/>
+  <testcase name="validate_invalidpwdmsg" classname="com.orangehrm.qa.tests.LoginPageTests" time="2.635"/>
+  <testcase name="end" classname="com.orangehrm.qa.tests.EmergencyContactsDDtest" time="4.267">
+    <failure message="Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DELL&apos;, ip: &apos;192.168.43.201&apos;, os.name: &apos;Windows 8&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.2&apos;, java.version: &apos;1.8.0_171&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchSessionException">org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DELL', ip: '192.168.43.201', os.name: 'Windows 8', os.arch: 'amd64', os.version: '6.2', java.version: '1.8.0_171'
+Driver info: driver.version: RemoteWebDriver
+	at com.orangehrm.qa.tests.EmergencyContactsDDtest.end(EmergencyContactsDDtest.java:74)
+</failure>
+  </testcase>
+</testsuite>

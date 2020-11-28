@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TempSuite]">
+  <listeners>
+    <listener class-name="com.orangehrm.qa.util.TestUtil"/>
+  </listeners>
+  <test name="Tempfailedmyinfoscrrenshots(failed)">
+    <classes>
+      <class name="com.orangehrm.qa.tests.MyInfoDD_withDP">
+        <methods>
+          <include name="validatemyinfodetails" invocation-numbers="1 5 6"/>
+          <include name="setUp"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- com.orangehrm.qa.tests.MyInfoDD_withDP -->
+    </classes>
+  </test> <!-- Tempfailedmyinfoscrrenshots(failed) -->
+</suite> <!-- Failed suite [TempSuite] -->

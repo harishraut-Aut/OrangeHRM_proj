@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AllTestsSuite]">
+  <listeners>
+    <listener class-name="com.orangehrm.qa.util.TestUtil"/>
+    <listener class-name="com.orangehrm.qa.util.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest">
+        <methods>
+          <include name="setUp"/>
+          <include name="end"/>
+          <include name="validatemyinfodetails" invocation-numbers="1 5 6"/>
+        </methods>
+      </class> <!-- com.orangehrm.qa.tests.MyInfoPersonalDetailsDDtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AllTestsSuite] -->

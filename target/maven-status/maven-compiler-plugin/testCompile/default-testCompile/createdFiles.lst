@@ -1,0 +1,5 @@
+com\orangehrm\qa\tests\MyInfo_PhotographTest.class
+com\orangehrm\qa\tests\LoginPageTests.class
+com\orangehrm\qa\tests\EmergencyContactsDDtest.class
+com\orangehrm\qa\tests\LoginPageDDtest.class
+com\orangehrm\qa\tests\MyInfoPersonalDetailsDDtest.class
