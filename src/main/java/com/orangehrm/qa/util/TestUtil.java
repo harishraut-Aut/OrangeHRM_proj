@@ -13,7 +13,7 @@ public class TestUtil extends TestBase implements ITestListener
 	{
 		// from here you can manage your timeouts..
 		public static long PAGE_LOAD_TIMEOUT = 40;
-		public static long IMPLICIT_WAIT = 150;
+		public static long IMPLICIT_WAIT = 15;
 
 		// sometimes the element is on frame so it takes time to detect it or it gives
 		// element not interactable exception in this type of cases the element is on
