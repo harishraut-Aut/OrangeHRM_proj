@@ -13,9 +13,6 @@ import com.orangehrm.qa.pages.LoginPage;
 import com.orangehrm.qa.pages.MyInfo;
 //i was debugging this code for many days and found a solution finally from stack overflow..
 // always always give location of your data provider class 
-//i missed that many times so that is why my previous 2 datadriven tests i didnt used dataprovider
-//here im using one and also i have created a program to extract data from excel sheet you can use it for free
-//its under dataproviders package.. 
 
 public class EmergencyContactsDDtest extends TestBase
 	{
