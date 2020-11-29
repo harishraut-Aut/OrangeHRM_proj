@@ -95,12 +95,38 @@
 <artifactId>maven-surefire-plugin</artifactId>
 <version>2.19.1</version>
 <configuration>
- 			 
+ <!-- 	 
+ this tags used to run only single test ok in jenkins ..
+ 
+ <includes>
+ <include>
+ EmergencyContactsDDtest.java
+ </include>
+ </includes>
+  
+  
+  
+  -->	
+ 
+ 
+ <!--  
+ 
+ 
+ this is for running the suite in jenkins 
+  
+  
+ -->  
   <suiteXmlFiles>
   
-  <suiteXmlFile>D:\Classwork\OrangeHRMTest\testng.xml</suiteXmlFile>
-  </suiteXmlFiles>
   
+  <suiteXmlFile>D:\Classwork\OrangeHRMTest\testng.xml</suiteXmlFile>
+  
+  
+  </suiteXmlFiles>
+ 
+ 
+ 
+
   
   
   
@@ -111,7 +137,7 @@
   </plugins>
   
   
-  
+  <!-- always use build tag ok to while adding plug ins  -->
   
   </build>
 </project>
