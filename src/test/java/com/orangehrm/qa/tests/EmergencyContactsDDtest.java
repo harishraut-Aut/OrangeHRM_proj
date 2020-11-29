@@ -1,7 +1,7 @@
 package com.orangehrm.qa.tests;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -68,7 +68,7 @@ public class EmergencyContactsDDtest extends TestBase
 				Assert.assertTrue(flag);// if flag is false assertion will fail...
 			}
 
-		@AfterTest
+		@AfterClass
 		public void end()
 			{
 				driver.close();
