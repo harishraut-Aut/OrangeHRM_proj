@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34494" started-at="2020-11-29T15:16:12Z" finished-at="2020-11-29T15:16:47Z">
+  <suite name="Default suite" duration-ms="30491" started-at="2020-11-29T16:06:02Z" finished-at="2020-11-29T16:06:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34494" started-at="2020-11-29T15:16:12Z" finished-at="2020-11-29T15:16:47Z">
+    <test name="Default test" duration-ms="30491" started-at="2020-11-29T16:06:02Z" finished-at="2020-11-29T16:06:33Z">
       <class name="com.orangehrm.qa.tests.EmergencyContactsDDtest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrm.qa.tests.EmergencyContactsDDtest@3532ec19]" name="setUp" is-config="true" duration-ms="25091" started-at="2020-11-29T20:46:12Z" finished-at="2020-11-29T20:46:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangehrm.qa.tests.EmergencyContactsDDtest@68c4039c]" name="setUp" is-config="true" duration-ms="21309" started-at="2020-11-29T21:36:02Z" finished-at="2020-11-29T21:36:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="addEmergencycontacts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.qa.tests.EmergencyContactsDDtest@3532ec19]" name="addEmergencycontacts" duration-ms="3722" started-at="2020-11-29T20:46:39Z" data-provider="test1data" finished-at="2020-11-29T20:46:43Z">
+        <test-method status="PASS" signature="addEmergencycontacts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.qa.tests.EmergencyContactsDDtest@68c4039c]" name="addEmergencycontacts" duration-ms="3545" started-at="2020-11-29T21:36:26Z" data-provider="test1data" finished-at="2020-11-29T21:36:29Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEmergencycontacts -->
-        <test-method status="PASS" signature="addEmergencycontacts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.qa.tests.EmergencyContactsDDtest@3532ec19]" name="addEmergencycontacts" duration-ms="3478" started-at="2020-11-29T20:46:43Z" data-provider="test1data" finished-at="2020-11-29T20:46:47Z">
+        <test-method status="PASS" signature="addEmergencycontacts(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.orangehrm.qa.tests.EmergencyContactsDDtest@68c4039c]" name="addEmergencycontacts" duration-ms="3383" started-at="2020-11-29T21:36:29Z" data-provider="test1data" finished-at="2020-11-29T21:36:33Z">
           <params>
             <param index="0">
               <value>
@@ -53,6 +53,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addEmergencycontacts -->
+        <test-method status="PASS" signature="end()[pri:0, instance:com.orangehrm.qa.tests.EmergencyContactsDDtest@68c4039c]" name="end" is-config="true" duration-ms="80" started-at="2020-11-29T21:36:33Z" finished-at="2020-11-29T21:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
       </class> <!-- com.orangehrm.qa.tests.EmergencyContactsDDtest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
